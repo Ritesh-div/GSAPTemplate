@@ -1,0 +1,70 @@
+/* LECTURE 5 SIDEBAR */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.663);
+    color: white;
+    overflow-x: hidden;
+}
+body{
+    align-items: center;
+    justify-content: center;
+}
+
+
+body{
+    overflow-x: hidden;
+} 
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1509803874385-db7c23652552?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-position: center;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+}
+#nav i{
+    font-weight: 800;
+    cursor: pointer;
+}
+#nav h2{
+    font-size: 30px;
+}  
+#full{
+    height: 100%;
+    width: 40%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.349);
+    color: rgba(17, 13, 63, 0.818);
+    top:0;
+    right: -40%;
+    backdrop-filter: blur(10px);
+    padding: 15rem 2rem;
+
+}
+#full h4{
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+#full i{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}

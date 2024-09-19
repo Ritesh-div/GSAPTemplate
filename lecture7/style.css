@@ -1,0 +1,60 @@
+/* LECTURE 7 */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.663);
+    color: white;
+    overflow-x: hidden;
+}
+body{
+    align-items: center;
+    justify-content: center;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color:antiquewhite;
+}
+
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(247, 205, 150);
+    color: black;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(241, 185, 112);
+}
+#move{
+    background-color: yellow;
+    padding: 0 3vw;
+    display: flex;
+
+}
+#markq{
+    flex-shrink: 0;
+    display: flex;
+    background-color: yellow;
+    align-items: center;
+    padding: 3vw 0.15vw;
+    gap:2vw;
+    transform: translateX(-100%);
+}
+#markq h1{
+    font-size: 4vw;
+}
+#markq img{
+    height: 4vw;
+}
